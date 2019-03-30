@@ -1,0 +1,48 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/new_group"
+            android:title="@string/new_group"
+            android:icon="@mipmap/ic_nav_group"
+            />
+        <item
+            android:id="@+id/new_secret_chat"
+            android:title="@string/new_secret_chat"
+            android:icon="@mipmap/ic_navsecret"/>
+        <item
+            android:id="@+id/new_channel"
+            android:title="@string/new_channel"
+            android:icon="@mipmap/ic_nav_channel"/>
+
+        <item
+            android:id="@+id/contacts"
+            android:title="@string/contacts"
+            android:icon="@mipmap/ic_nav_group"
+            />
+        <item
+            android:id="@+id/saved_messages"
+            android:title="@string/saved_messages"
+            android:icon="@mipmap/ic_nav_group"
+            />
+        <item
+            android:id="@+id/calls"
+            android:title="@string/calls"
+            android:icon="@mipmap/ic_nav_group"
+            />
+        <item
+            android:id="@+id/invite_friends"
+            android:title="@string/invite_friends"
+            android:icon="@mipmap/ic_nav_group"
+            />
+        <item
+            android:id="@+id/settings"
+            android:title="@string/settings"
+            android:icon="@mipmap/ic_nav_group"
+            />
+        <item
+            android:id="@+id/telegram_faq"
+            android:title="@string/telegram_faq"
+            android:icon="@mipmap/ic_nav_group"
+            />
+    </group>
+</menu>
